@@ -1,0 +1,29 @@
+{
+    "name": "zunfuyuzora/ukyo-reporter",
+    "description": "Fun way todo debugging in Laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ukyo\\Reporter\\": "/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Zun Fuyuzora",
+            "email": "zunfuyuzora@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ukyo\\Air\\ServiceProvider"
+            ],
+            "aliases": {
+                "UkyoAir": "Ukyo\\Air\\Facade"
+            }
+        }
+    }
+}
